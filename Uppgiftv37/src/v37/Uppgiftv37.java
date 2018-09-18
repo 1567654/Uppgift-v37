@@ -11,6 +11,16 @@ public class Uppgiftv37 {
 		System.out.println("Skriv in 10 heltal");
 		
 		int tal1 = input.nextInt(); 
+		int max = tal1;
+		int min = tal1;
+		
+		int tal2 = input.nextInt();
+		if (tal2 > max); {
+			tal2 = max;
+		}
+		if (tal2 < min); {
+			tal2 = min;
+		}
 		 
 		
 		
